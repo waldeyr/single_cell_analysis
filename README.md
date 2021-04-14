@@ -1,9 +1,9 @@
 # Single Cell RNA-Seq analysis with Seurat
 
-*Waldeyr Mendes Cordeiro da Silva; compiled on Mar-2021*
+*Waldeyr Mendes Cordeiro da Silva; compiled on Apr-2021*
 
 ### Case Study
-This R notebook is the code used in a case study of the Chapter "Transcriptome Analysis Throughout RNA-seq" by Brigido et al.
+This R notebook is the code used in a case study of the Chapter "Transcriptome Analysis Throughout RNA-seq" by Silva et al.
 
 The basic environment is a Linux with R version 4.x. 
 I recomend to setup the environment and run it using anaconda by following the steps:
@@ -24,6 +24,10 @@ I recomend to setup the environment and run it using anaconda by following the s
 `if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install(version = "3.12")`
+
+`BiocManager::install('ggplot2')`
+
+`BiocManager::install('ggrepel')`
 
 `BiocManager::install('limma')`
 
